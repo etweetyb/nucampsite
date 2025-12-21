@@ -104,13 +104,46 @@
                 </div>
             </div>
         </section>
-<section class="row row-content">
-    <div class="col col-sm-9 mx-auto">
-        
+         <section class="row row-content">
+    <div class="col-sm-9 mx-auto">
+        <div class="card">
+            <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
 
+            <div class="card-body">
+                <form id="reserveForm">
+                    <div class="row mb-3">
+                        <label for="numCampers" class="col-sm-6 col-form-label">Number of Campers</label>
+                        <div class="col-sm-6">
+                            <select name="numCampers" id="numCampers" class="form-select">
+                                <option selected disabled>Select...</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                               </select>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label for="date" class="col-sm-6 col-form-label">Date</label>
+                        <div class="col-sm-6">
+                            <input class="form-control" type="date" id="date" name="date" placeholder="Date" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <button type="submit" class="btn btn-primary">Search</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
-    
 </section>
+  
 	</main>
 
     <!-- footer -->
