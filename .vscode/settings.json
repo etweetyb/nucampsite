@@ -1,0 +1,8 @@
+{
+    "editor.inlineSuggest.enabled": false,
+    "editor.wordWrap": "on",
+    "files.autoSave": "afterDelay",
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    "html.hover.references": true
+}
